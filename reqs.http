@@ -1,0 +1,27 @@
+@server = https://bookish-space-system-ww7pvx9x7gq25969-8080.app.github.dev
+@puestos = {{server}}/api/puestos
+@personas = {{server}}/api/personas
+@departamentos = {{server}}/api/departamentos
+###
+GET {{puestos}}
+###
+GET {{departamentos}}/1/formacion
+###
+POST {{puestos}}
+Content-Type: application/json
+
+{
+  "nombre" : "Prueba",
+  "descripcion" : "Prueba"
+}
+###
+GET {{personas}}
+###
+GET {{personas}}/1
+###
+PATCH {{personas}}/1
+Content-Type: application/json
+
+{
+  "nombre" : "Jaime Hendrix"
+}
