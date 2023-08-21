@@ -21,7 +21,7 @@ class PageHome extends React.Component {
 	render() {
 		return (
 			<>
-				<h1>EC4 - Julio Rivero</h1>
+				<h1>EC4 - Fernando Espinoza</h1>
 
 				<div id='Contenedor' style={{ width: '50%', margin: '0 auto', display: 'flex', flexDirection: 'column' }}>
 					<div style={{ width: '100%' }}>
